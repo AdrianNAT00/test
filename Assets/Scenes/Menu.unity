@@ -590,6 +590,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startButton: {fileID: 901530034}
+  colorButtons:
+  - {fileID: 1599312268}
+  - {fileID: 1793475653}
+  - {fileID: 137749018}
+  colors:
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0.5384617, b: 1, a: 0}
+  - {r: 0.9346278, g: 1, b: 0, a: 0}
+  colorToApply: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &631634812
 GameObject:
   m_ObjectHideFlags: 0

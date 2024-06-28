@@ -846,6 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  targetRenderer: {fileID: 1851163877}
 --- !u!65 &1851163876
 BoxCollider:
   m_ObjectHideFlags: 0

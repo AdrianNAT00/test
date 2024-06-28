@@ -5,11 +5,16 @@ using UnityEngine;
 public class Canasta : MonoBehaviour
 {
     public float speed = 5f;
+    public Renderer targetRenderer;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+            if (MenuManager.instance != null)
+            {
+                targetRenderer.material.color = MenuManager.instance.colorToApply;
+            }
     }
 
     // Update is called once per frame
